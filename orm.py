@@ -207,3 +207,4 @@ async def get_books(book_id: int, db: AsyncSession = Depends(get_database)):
     book3=result.scalar_one_or_none()#查单条
     return book3
 #try
+#try2
